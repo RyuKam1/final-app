@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import styles from "./postframe.module.css";
 
-function postFrame({ blogPost }) {
+function postFrame({ blogPost, widthMode }) {
   return (
     <div className={styles.container}>
       <div className={styles.imageContainer}>
