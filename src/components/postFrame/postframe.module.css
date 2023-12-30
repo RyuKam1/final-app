@@ -29,11 +29,21 @@
   align-items: flex-start;
   margin-top: 10px;
   margin-left: 10px;
+}
 
+.desc {
   width: 300px;
-  max-height: 200px;
   overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  text-wrap: pretty;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 5;
+           line-clamp: 2;
+   -webkit-box-orient: vertical;
+}
+
+.btn {
+  padding: 10px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
 }
