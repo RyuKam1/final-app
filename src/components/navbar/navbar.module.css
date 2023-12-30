@@ -1,0 +1,19 @@
+.container {
+    background-color: #000000;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.logo {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
