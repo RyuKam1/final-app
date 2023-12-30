@@ -11,29 +11,20 @@ function Navbar() {
         },
         {
             id: 2,
-            title: "Portfolio",
-            url: '/portfolio'
+            title: "Blogs",
+            url: '/blogs'
         },
         {
             id: 3,
-            title: "Blogs",
-            url: '/blog'
-        },
-        {
-            id: 4,
             title: "About",
             url: '/about'
         },
         {
-            id: 5,
+            id: 4,
             title: "Contact",
             url: '/contact'
         },
-        {
-            id: 6,
-            title: "Dashboard",
-            url: '/dashboard'
-        },
+
     ]
   return (
     <div className={styles.container}>
@@ -41,8 +32,8 @@ function Navbar() {
 
         <div className={styles.links}>
             {links.map(link => (<Link href={link.url}>{link.title}</Link>))}
+            <button className={styles.logout}>Logout</button>
         </div>
-        <button className={styles.logout}>Logout</button>
     </div>
   )
 }

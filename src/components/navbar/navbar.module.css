@@ -1,19 +1,28 @@
 .container {
+    margin: 0 30vh;
     background-color: #000000;
     display: flex;
     height: 100px;
     justify-content: space-between;
     align-items: center;
+
+    border-style: solid;
+    border-top: 0;
+    border-bottom: 2;
+    border-left: 0;
+    border-right: 0;
+    border-color: white;
 }
 
 .links {
     display: flex;
     gap: 20px;
     align-items: center;
+    font-size: 18px;
 }
 
 .logo {
     text-align: center;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
 }
