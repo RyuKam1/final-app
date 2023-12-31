@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import styles from "./page.module.css";
+
 import Postframe from "@/components/postframe/postFrame";
 
 function Main() {
