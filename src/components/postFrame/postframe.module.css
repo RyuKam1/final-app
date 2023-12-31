@@ -2,8 +2,14 @@
   display: flex;
   height: 200px;
   width: 500px;
-  background: linear-gradient(to right, #242424, #000000);
+  background: linear-gradient(to right, #5a5a5a, #000000);
+  opacity: 70%;
   color: white;
+  transition: 0.1s ease-in-out;
+}
+
+.container:hover{
+  opacity: 100%;
 }
 .title {
   text-align: center;
@@ -46,4 +52,10 @@
   width: 100px;
   border: none;
   border-radius: 10px;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #c4c4c4;
 }
