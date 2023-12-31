@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from "./navbar.module.css"
 import Link  from 'next/link'
+import NavLink from './navLink/NavLink'
 
 function Navbar() {
     const links = [
@@ -31,8 +32,9 @@ function Navbar() {
         <Link href="/" className={styles.logo}>YuBlog</Link>
 
         <div className={styles.links}>
-            {links.map(link => (<Link href={link.url}>{link.title}</Link>))}
-            <button className={styles.logout}>Logout</button>
+            {links.map(link => (
+            <NavLink item={link} key={link.id}/>
+            ))}
         </div>
     </div>
   )
