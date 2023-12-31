@@ -1,0 +1,14 @@
+.container {
+    min-width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.2s ease-in-out;
+}
+
+.active {
+    background-color: white;
+    color: black;
+    transition: 0.2s ease-in-out;
+}
