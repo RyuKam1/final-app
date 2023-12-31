@@ -4,6 +4,7 @@ import styles from "./postframe.module.css";
 
 function postFrame({ blogPost, postId }) {
   return (
+    <a href={`/blogs/${postId}`}>
     <div className={styles.container}>
       <div className={styles.imageContainer}>
         <Image
@@ -14,6 +15,7 @@ function postFrame({ blogPost, postId }) {
           className={styles.img}
         />
       </div>
+      
       <div className={styles.info}>
         <h2 className={styles.title}>{blogPost.title}</h2>
         <div className={styles.descContainer}>
@@ -24,6 +26,7 @@ function postFrame({ blogPost, postId }) {
         </a>
       </div>
     </div>
+    </a>
   );
 }
 
