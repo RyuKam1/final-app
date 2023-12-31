@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "./blogs.module.css";
 import Link from "next/link";
-import PostFrame from "@/components/postframe/postFrame";
+import PostFrame from "@/components/postFrame/postFrame";
 
 function Blogs() {
   const [posts, setPosts] = useState([]);
