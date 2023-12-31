@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import styles from "./page.module.css";
-import PostFrame from "@/components/postframe/Postframe";
+import Postframe from "@/components/postframe/Postframe";
 
 function Main() {
   const [posts, setPosts] = useState([]);
@@ -32,7 +32,7 @@ function Main() {
 
             {posts.map((post, index) => (
               <div key={index}>
-                <PostFrame blogPost={post} postId={post.id}/>
+                <Postframe blogPost={post} postId={post.id}/>
               </div>
             ))}
         </div>
