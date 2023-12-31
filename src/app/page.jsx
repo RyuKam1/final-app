@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "./page.module.css";
 
-import Postframe from "@/components/postframe/postFrame";
+import Postframe from "@/components/postFrame/postFrame";
 
 function Main() {
   const [posts, setPosts] = useState([]);
