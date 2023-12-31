@@ -1,0 +1,26 @@
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    font-size: 50px;
+}
+
+.imageContainer {
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.img {
+    object-fit: cover;
+}
+
+.desc {
+    width: 700px;
+    font-size: 20px;
+}
