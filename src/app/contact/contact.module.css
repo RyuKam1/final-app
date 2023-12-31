@@ -33,4 +33,10 @@
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
 }
+
+.form button:hover {
+    background-color: #c4c4c4;
+  }
