@@ -21,7 +21,9 @@ function Main() {
           <p className={styles.desc}>
             Discover stories, thinking, and expertise from writers on any topic.
           </p>
+          <a href="/blogs">
           <button className={styles.btn}>Start Reading</button>
+          </a>
         </div>
       </div>
       <div className={styles.popularBlogs}>
@@ -30,7 +32,7 @@ function Main() {
 
             {posts.map((post, index) => (
               <div key={index}>
-                <PostFrame blogPost={post}/>
+                <PostFrame blogPost={post} postId={post.id}/>
               </div>
             ))}
         </div>

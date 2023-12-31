@@ -20,7 +20,7 @@ function Blogs() {
         {posts.map((post) => (
           <>
             {/* <Link href={`/dashboard/posts/${post.id}`}>{post.title}</Link> */}
-            <PostFrame blogPost = {post} widthMode={"wideContainer"} key={post.id}/>
+            <PostFrame blogPost = {post} postId={post.id} key={post.id}/>
             <br />
           </>
         ))}
